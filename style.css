@@ -1,0 +1,202 @@
+/*COLORS*/
+/*FONTS*/
+/*FONT SIZE*/
+.navbar {
+    background-color: #b5d4d3;
+    font: 100% "Pacifico", cursive; }
+    .navbar .btn-outline-success {
+      color: #494e47;
+      border: #494e47; }
+      .navbar .btn-outline-success:hover {
+        color: white;
+        background-color: #494e47; }
+  
+  .jumbotron {
+    background-image: url(https://images.unsplash.com/photo-1487611459768-bd414656ea10?w=1650);
+    background-size: cover;
+    height:95vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);}
+    .jumbotron .opacity {
+      grid-column: 2 / span 1;
+      grid-row: 2 / span 1;
+      margin: auto;
+      border: 1px solid;
+      padding: 20px 40px;
+      background: rgba(0, 0, 0, 0.5); }
+      .jumbotron .opacity h1, .jumbotron .opacity p {
+        color: white; }
+      .jumbotron .opacity h1 {
+        font: 100% "Satisfy", cursive;
+        font-size: 100px; }
+      .jumbotron .opacity p {
+        font: 100% "Barlow Condensed", sans-serif;
+        font-size: 20px; }
+      .jumbotron .opacity p .btn {
+        background: #b5d4d3;
+        border: #b5d4d3; }
+        .jumbotron .opacity p .btn:hover {
+          background: #6ba5a3;
+          cursor: pointer; }
+  
+  .elements .container .row {
+    margin: 10px; }
+    .elements .container .row .elements-col .material-icons {
+      color: #b5d4d3;
+      font-size: 80px; }
+      .elements .container .row .elements-col .material-icons:hover {
+        color: #6ba5a3;
+        cursor: pointer; }
+    .elements .container .row .elements-col h3 {
+      font: 100% "Satisfy", cursive;
+      font-weight: bolder;
+      font-size: 40px;
+      color: #494e47; }
+    .elements .container .row .elements-col p {
+      font: 100% "Barlow Condensed", sans-serif;
+      font-size: 20px;
+      margin-bottom: 0;
+      color: #494e47; }
+    .elements .container .row .elements-col .btn {
+      margin-bottom: 20px;
+      background: #b5d4d3;
+      border: #b5d4d3; }
+      .elements .container .row .elements-col .btn:hover {
+        background: #6ba5a3;
+        cursor: pointer; }
+  
+  .featured {
+    padding: 40px;
+    background-color: #b5d4d3; }
+    .featured h2 {
+      color: white;
+      font: 100% "Satisfy", cursive;
+      font-size: 40px; }
+    .featured p {
+      color: #494e47;
+      font: 100% "Barlow Condensed", sans-serif;
+      font-size: 20px; }
+  
+  .gallery {
+    margin: 0 auto; }
+    .gallery .row .gallery-col {
+      padding: 0; }
+      .gallery .row .gallery-col .gallery-item {
+        position: relative; }
+        .gallery .row .gallery-col .gallery-item:hover img {
+          opacity: 0.5;}
+        .gallery .row .gallery-col .gallery-item:hover .material-icons {
+          display: block; }
+        .gallery .row .gallery-col .gallery-item .icons-search, .gallery .row .gallery-col .gallery-item .icons-photo {
+          position: absolute;
+          z-index: 2;
+          display: none;
+          color: #4BF1FA;
+          font-size: 20px;
+          background-color: black;
+          border-radius: 15%;
+          padding: 10px;
+         }
+        .gallery .row .gallery-col .gallery-item .icons-search:hover, .gallery .row .gallery-col .gallery-item .icons-photo:hover {
+          cursor: pointer;
+        }
+        .gallery .row .gallery-col .gallery-item .icons-search {
+          top: 40%;
+          left: 30%; }
+        .gallery .row .gallery-col .gallery-item .icons-photo {
+          top: 40%;
+          left: 60%; }
+        .gallery .row .gallery-col .gallery-item img {
+          width: 100%; }
+  
+  .team-icon {
+    position: relative; }
+    .team-icon .material-icons {
+      color: #b5d4d3;
+      font-size: 100px; }
+      .team-icon .material-icons:hover {
+        color: #6ba5a3;
+        cursor: pointer; }
+    .team-icon .team-layer {
+      position: absolute;
+      display: none; }
+    .team-icon h3 {
+      font: 100% "Satisfy", cursive;
+      font-weight: bolder;
+      font-size: 40px;
+      color: #494e47;
+      text-align: center; }
+  
+  .advertisement {
+    background-color: #494e47;
+    color: white;
+    padding: 40px; }
+    .advertisement .row .ad-col h2 {
+      font: 100% "Pacifico", cursive;
+      font-size: 40px;
+      text-align: center; }
+    h3 .advertisement .row .ad-col h4 {
+      font: 100% "Barlow Condensed", sans-serif;
+      font-size: 20px;
+      font-weight: lighter; }
+  
+  .numbers {
+    padding: 40px; }
+    .numbers .container .row .numbers-col {
+      padding: 40px;
+      text-align: center; }
+      .numbers .container .row .numbers-col .number {
+        font: 100% "Satisfy", cursive;
+        font-size: 40px; }
+      .numbers .container .row .numbers-col .number-text {
+        font: 100% "Barlow Condensed", sans-serif;
+        font-size: 20px;
+        font-weight: lighter;
+        color: #22c8e9; }
+  
+  footer {
+    background-color: #b5d4d3; }
+    footer .container .row .footer-col {
+      padding: 40px; }
+      footer .container .row .footer-col h2 {
+        font: 100% "Pacifico", cursive;
+        font-size: 40px;
+        text-align: center;
+        color: white; }
+      footer .container .row .footer-col .social-media {
+        border: none;
+        padding: 20px;
+        font-size: 50px; }
+        footer .container .row .footer-col .social-media .icon-btn {
+          background-color: white;
+          width: 75px;
+          height: 75px;
+          border: 0;
+          border-radius: 50%;
+          cursor: pointer; }
+        footer .container .row .footer-col .social-media .youtube {
+          color: #fb0d1b; }
+          footer .container .row .footer-col .social-media .youtube:hover {
+            color: white;
+            background-color: #fb0d1b; }
+        footer .container .row .footer-col .social-media .google {
+          color: #DB5A3C; }
+          footer .container .row .footer-col .social-media .google:hover {
+            color: white;
+            background-color: #DB5A3C; }
+        footer .container .row .footer-col .social-media .facebook {
+          color: #3B5998; }
+          footer .container .row .footer-col .social-media .facebook:hover {
+            color: white;
+            background-color: #3B5998; }
+        footer .container .row .footer-col .social-media .github {
+          color: #4183C4; }
+          footer .container .row .footer-col .social-media .github:hover {
+            color: white;
+            background-color: #4183C4; }
+        footer .container .row .footer-col .social-media .instagram {
+          color: #8f604e; }
+          footer .container .row .footer-col .social-media .instagram:hover {
+            color: white;
+            background-color: #8f604e; }
+  
